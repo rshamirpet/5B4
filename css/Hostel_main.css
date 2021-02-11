@@ -1,0 +1,57 @@
+.navbar{
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+#color{ 
+  color: yellow;
+  font-weight: bold;
+}
+.navbar-brand,.navbar-brand:hover{
+  font-weight: bold;
+  text-decoration:none;
+  color: white;
+}
+#text-box{
+  padding: 5px 0px 5px 10px;
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.hostels{
+  background-color: ;
+  padding-top: 1rem;
+  display:flex;
+  flex-direction:column; 
+}
+
+.hostel{
+  display:flex;
+  margin-bottom: 1rem;
+}
+
+.hostel-image img{
+  width: 300px;
+  height:220px;
+}
+
+.title{
+  margin-bottom: .5rem;
+  font-size:30px;  
+}
+
+.description{
+  padding: 0px 0px 0px 20px;
+  position:relative;
+
+}
+.s{
+  margin-top: .5rem;
+}
+
+@media screen and (max-width: 929px){
+  .text span#text{
+    display:none;
+  }
+}
