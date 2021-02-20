@@ -1,25 +1,51 @@
-.navbar{
+header{
+  position: fixed-top;
+  background-color: yellow;
+  padding: 1rem 0 1rem 0;
   background-color: black;
-  border-bottom: 1px solid white;
+  color: white;
+  
+  font-family: font-family: 'Lato', sans-serif;
 }
-#color{ 
+header a,header a:hover{
+  text-decoration: none;
+  color: white;
+}
+h5 span{
   color: yellow;
   font-weight: bold;
 }
-.navbar-brand,.navbar-brand:hover{
-  font-weight: bold;
-  text-decoration:none;
-  color: white;
-}
-#text-box{
-  padding: 5px 0px 5px 10px;
-  width: 80%;
-  border-radius: 10px;
+header input{
+  float: left;
+  width: 50%;
+  height: auto;
   outline: none;
-  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  list-style: none;
+  float: left;
+  width: %;
+  margin: 0 auto;
+  padding: 0 0 0px 15px;
+}
+@media screen and (max-width: 992px){
+  nav li{
+    padding-bottom: .5rem;
+  }
+  header{
+    padding-bottom: .5rem;
+  }
 }
 
 .hostels{
+  color: ;
   background-color: ;
   padding-top: 1rem;
   display:flex;
@@ -29,6 +55,7 @@
 .hostel{
   display:flex;
   margin-bottom: 1rem;
+  border-bottom:;
 }
 
 .hostel-image img{
@@ -54,4 +81,15 @@
   .text span#text{
     display:none;
   }
+}
+
+.group:before,.group:after{
+  content:"";
+  display:table;
+}
+.group:after{
+  clear: both;
+}
+.group{
+  zoom:1;
 }

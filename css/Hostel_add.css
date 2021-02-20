@@ -1,0 +1,60 @@
+body{
+	position: relative;
+	margin:0;
+	padding:0;
+	background-image: linear-gradient(to right, purple, #c4c2b3, pink);
+}
+.addhostel{
+	top: -70px;
+	position: relative;
+	width: 320px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: black;
+	color: white;
+	padding: 1rem 1rem;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+h3{
+	/*color: #7da7f5;*/
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: blue;
+}
+.addhostel p{
+	letter-spacing: .5px;
+	padding:0;
+	margin:0;
+	font-weight: bold;
+}
+.addhostel input{
+	color: white;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.addhostel input[type="text"], input[type="password"],input[type="email"]{
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+	height: 40px;
+}
+.addhostel textarea{
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+	height: 40px;
+	color: white;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.addhostel button{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
